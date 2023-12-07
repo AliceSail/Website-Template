@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: white; /* Light gray background color */
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #2a2a2a; /* Dark background color for the navbar */
+  color: white;
+  padding: 1rem;
+  width: 100%; /* Take the full width of the viewport */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex; /* Align logo and company name horizontally */
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo img {
+  margin-right: 1rem; /* Add some spacing between the logo and company name */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0; /* Remove default list margin */
+}
+
+.nav-links li {
+  font-family: "Viga", sans-serif;
+  margin: 0 2rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth transition for menu item color change */
+}
+
+.nav-links li:hover {
+  color: #ee61fb; /* Menu item color on hover */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.hero {
+  background: url("C:\Users\paulk\OneDrive\Documenten\Winc\projects\react-website_template\src\images\Orange and White Funny Dating Animated Presentation.gif")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  margin-left: 25%;
+}
+
+.lastone {
+  background: url("C:\Users\paulk\OneDrive\Documenten\Winc\projects\react-website_template\src\images\Pink Cute Animated Bubble Video Centric Welcome YouTube Intro.gif")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.lastone-content {
+  text-align: center;
+  margin-left: 25%;
+}
+
+.hero h1 {
+  font-family: "Zeyada", cursive;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.hero p {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.content-section {
+  padding: 4rem 0;
+}
+
+.content-section.light-bg {
+  background-color: white; /* Light background color for content sections with light background */
+}
+
+.section-content {
+  text-align: center;
+}
+
+.section-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  margin: 200px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.section-content .carousel-image {
+  margin-right: 10px;
+  margin-left: -400px;
+}
+
+.section-content img {
+  width: 1000px;
+  height: 600px;
+  align-items: center;
+  border-radius: 10px; /* Add rounded edges */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.footer {
+  background-color: #2a2a2a; /* Dark background color for the footer */
+  color: white;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #61dafb;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+}
